@@ -79,7 +79,7 @@ Cypress.Commands.add('generateLabResults', (uuid) => {
         location: DEFAULT_LOCATION_UUID,
         encounterProviders: [
           {
-            provider: "8d94f280-c2cc-11de-8d13-0010c6dffd0f",
+            provider: "b14e6b94-9552-4dad-81ea-2cb73880d1c6",
             encounterRole: "240b26f9-dd88-4172-823d-4a8bfeb7841f"
           }
         ],
