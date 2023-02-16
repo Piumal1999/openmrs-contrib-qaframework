@@ -81,6 +81,12 @@ public class VisitNoteSteps extends Steps {
         visitNotePage.addDiagnosis(DIAGNOSIS_PRIMARY);
         visitNotePage.addSecondaryDiagnosis(DIAGNOSIS_SECONDARY);
         visitNotePage.addNote("This is a new visit note.");
+        // add a 5 minute delay
+        try {
+            Thread.sleep(300000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Then("the system displays the diagnosis cards")
