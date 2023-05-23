@@ -41,4 +41,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Screen recordings of failed tests
-          path: qaframework-bdd-tests/cypress/videos/oclsubscriptionmodule
+          path: qaframework-bdd-tests/cypress/videos/ocl
